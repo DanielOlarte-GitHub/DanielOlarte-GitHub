@@ -10,7 +10,7 @@
 # 💻 TECHNOLOGIES 💻
 
 ### 🔮 PROGRAMMING LANGUAGES 🔮
-[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -52,13 +52,10 @@
 
 
 # 👉ABOUT ME👈
-## ⚡ SOCIAL MEDIAS⚡
-### <a href="https://www.linkedin.com/in/danielolarteavila/"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)  </a>
+* ## ⚡ SOCIAL MEDIAS⚡➡ <a href="https://www.linkedin.com/in/danielolarteavila/"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)  </a>
   
-## ❄️ CV ❄️
-### <a href="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/blob/main/Daniel%20Olarte%20CV%20EN.pdf" download="CV DANIEL OLARTE"> ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) </a>
+* ## ❄️ CV ❄️ ➡ <a href="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/blob/main/Daniel%20Olarte%20CV%20EN.pdf" download="CV DANIEL OLARTE"> ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) </a>
 
-## 📧 EMAIL 📧
-<a href="mailto:danielolarte2012@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+* ## 📧 EMAIL 📧 ➡ <a href="mailto:danielolarte2012@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
 
 <br>
