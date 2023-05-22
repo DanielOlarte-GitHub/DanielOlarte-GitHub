@@ -51,7 +51,7 @@
 
 # 🦑 PROJECTS 🦑
 
-# Proyecto 1: [CAT/ARMY-DEX] 
+# Project 1: [CAT/ARMY-DEX] 
 
 Have you ever thought of starting a card collection? With this Dex, you can be the guardian of an impressive collection of virtual cats and even your own virtual army, adding their names, skills or descriptions to make each cat/soldier unique!
 
@@ -77,7 +77,9 @@ A project which works using <a href="https://robohash.org/">RoboHash</a> since i
 <img width="960" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/bc64dbe3-da90-4395-a405-ba389d7d608d">
 <img width="758" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/a57d26d3-2618-4f3f-9dba-ebcc3d5ac3fe">
 
+### Links
 
+- [GitHub Repository](enlace-al-repositorio)
 
 
   
