@@ -82,7 +82,7 @@ A project which works using <a href="https://robohash.org/">RoboHash</a> since i
 - [GitHub Repository](https://github.com/DanielOlarte-GitHub/Cat-Army-DEX)
 - [RoboHash Page used to generate images](https://robohash.org/)
 
-  
+  <br><hr><hr><br>
 
 
 
