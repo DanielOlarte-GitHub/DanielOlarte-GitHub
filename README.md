@@ -55,7 +55,7 @@
   <div>
     <h1>Cat/Army-Dex</h1>
     <h3>Have you ever thought about having a card collection? In this Dex you can store your cat/soldier where you can add name and skills or description where each soldier will be unique!</h3>
-    <h3>A project which works using <a src="https://robohash.org/">RoboHash</a> since it has the ability to create Monster, Robots, Heads and Cats with a Hash </h3>
+    <h3>A project which works using <a src="https://robohash.org/">RoboHash</a> since it has the ability to create Monster, Robots, Heads and Cats with a Hash, Created with React </h3>
     <img width="960" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/4213b55f-aeb6-4534-8fbf-01a9820052eb">
     <img width="946" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/406071cb-6d47-49da-89d9-f706588d1866">
     <img width="782" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/7cbd1364-8299-4188-9266-33173b5c2718">
