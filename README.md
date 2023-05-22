@@ -42,7 +42,6 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-
 ### 💡 OTHER TOOLS 💡
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -50,6 +49,25 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 <br><hr><hr><br>
 
+# 🦑 PROJECTS 🦑
+
+<div>
+  <div>
+    <h1>Cat/Army-Dex</h1>
+    <h3>Have you ever thought about having a card collection? In this Dex you can store your cat/soldier where you can add name and skills or description where each soldier will be unique!</h3>
+    <h3>A project which works using <a src="https://robohash.org/">RoboHash</a> since it has the ability to create Monster, Robots, Heads and Cats with a Hash </h3>
+    <img width="960" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/4213b55f-aeb6-4534-8fbf-01a9820052eb">
+    <img width="946" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/406071cb-6d47-49da-89d9-f706588d1866">
+    <img width="782" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/7cbd1364-8299-4188-9266-33173b5c2718">
+    <img width="960" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/bc64dbe3-da90-4395-a405-ba389d7d608d">
+    <img width="758" alt="image" src="https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/a57d26d3-2618-4f3f-9dba-ebcc3d5ac3fe">
+
+
+  </div>
+  <div>
+  
+  </div>
+</div>
 
 # 👉ABOUT ME👈
 ### ⚡ CONTACT ME⚡
