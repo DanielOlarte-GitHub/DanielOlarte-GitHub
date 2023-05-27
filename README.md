@@ -120,7 +120,7 @@ OlarTasks helps your task management experience, making it easy and enjoyable to
 ### Project Images
 
 ![Image 1](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/e50c33da-9ece-4652-9663-fce7fa70eb02)
-![Image 2](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/6e6b4f70-cbfb-4dc0-92c7-32891b1813b6)
+![Image 2](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/04537e61-5694-439d-8055-9b3be98fabe0)
 ![Image 3](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/4881a71f-bc7a-4b5a-86d3-caaa04d588ab)
 
 ### Links
