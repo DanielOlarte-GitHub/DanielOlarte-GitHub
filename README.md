@@ -2,11 +2,11 @@
 
 ### 🤖 AI Solutions Engineer · Generative AI · Automation · Cloud-Native Systems
 
-Artificial Intelligence Engineer with experience designing and implementing AI-powered solutions, automation initiatives, and data-driven systems within global enterprise environments. My work focuses on bridging technology and business needs through **Generative AI, process automation, analytics, and digital transformation** — throughout my career at **SLB**, I've contributed to AI adoption programs, internal automation solutions, technical enablement initiatives, and operational improvements impacting teams across multiple regions.
+Artificial Intelligence Engineer with experience designing and implementing AI-powered solutions, automation initiatives, and data-driven systems within global enterprise environments. My work focuses on bridging technology and business needs through **Generative AI, process automation, analytics, and digital transformation**  throughout my career at **SLB**, I've contributed to AI adoption programs, internal automation solutions, technical enablement initiatives, and operational improvements impacting teams across multiple regions.
 
 As a member of the **AI-Deation Team** and an **AI Literacy Champion**, I've led training programs, developed AI-focused initiatives, and promoted the practical adoption of artificial intelligence to improve productivity, documentation quality, and knowledge sharing across the organization.
 
-Beyond enterprise operations, I actively design, build, and ship my own **AI-driven products** — spanning **LLMs, NLP, real-time streaming architectures, automation workflows, and cloud-native deployments**. I'm particularly focused on **AI Solutions Engineering, AIOps, Automation, Data Engineering, and Cloud Technologies** — building scalable systems that create measurable business impact.
+Beyond enterprise operations, I actively design, build, and ship my own **AI-driven products**  spanning **LLMs, NLP, real-time streaming architectures, automation workflows, and cloud-native deployments**. I'm particularly focused on **AI Solutions Engineering, AIOps, Automation, Data Engineering, and Cloud Technologies**  building scalable systems that create measurable business impact.
 
 <br>
 
@@ -71,7 +71,7 @@ Beyond enterprise operations, I actively design, build, and ship my own **AI-dri
 
 # 🚀 FEATURED PROJECTS 🚀
 
-Selected AI systems and products I've designed and built end-to-end — from agentic workflow engineering to production AI platforms.
+Selected AI systems and products I've designed and built end-to-end  from agentic workflow engineering to production AI platforms.
 
 <br><hr><br>
 
@@ -117,7 +117,7 @@ The project is developed with a focus on **geriatric centers and assisted-living
 
 **Personal Project · AI Agent Engineering**
 
-PocketAI is a personal project built to learn and demonstrate practical **AI Agent Engineering** through a production-like, multi-agent architecture rather than a single-prompt chatbot. Every agent has one specialized responsibility, communicates over WhatsApp, and holds its own conversational memory and tool bindings — a pattern closer to how real agentic systems are structured in production than a simple LLM wrapper.
+PocketAI is a personal project built to learn and demonstrate practical **AI Agent Engineering** through a production-like, multi-agent architecture rather than a single-prompt chatbot. Every agent has one specialized responsibility, communicates over WhatsApp, and holds its own conversational memory and tool bindings  a pattern closer to how real agentic systems are structured in production than a simple LLM wrapper.
 
 An **Orchestrator Agent** receives every incoming message, classifies user intent, and routes the request through a **Switch Router** to one of three specialized agents: a **Transaction Manager** that extracts structured data from natural language and logs it to Google Sheets (asking follow-up questions when required fields are missing), a **Financial Intelligence** agent that reads the full transaction history to answer spending questions, detect trends, and flag unusual expenses, and a **Financial Report** agent that generates formatted summaries and recommendations. The entire workflow is orchestrated in **n8n**, using **Google Gemini** as the reasoning engine for each agent and **Google Sheets** as the system of record.
 
@@ -158,7 +158,7 @@ Switch Router
 
 **AI Developer** — Part of [Eggn.io](https://eggn.io)
 
-Dissemination Digest turns hours of manual research into a single 90-second request. A creative practitioner describes their project in a short form, and an **agentic AI research assistant** — powered by the **Anthropic Claude API** with live web search — scours the web and returns a curated digest of relevant festivals, grants, and residencies, delivered instantly in the browser and by email.
+Dissemination Digest turns hours of manual research into a single 90-second request. A creative practitioner describes their project in a short form, and an **agentic AI research assistant**  powered by the **Anthropic Claude API** with live web search  scours the web and returns a curated digest of relevant festivals, grants, and residencies, delivered instantly in the browser and by email.
 
 The core flow requires no account: Claude autonomously runs live web searches, synthesizes the results into a structured digest, and the platform emails a copy via **Resend** for later reference. An optional persistent workspace (Node.js on a Docker/Coolify deployment) lets returning users save projects and manage subscriptions, while the public-facing form runs serverless on **Cloudflare Pages/Workers** for instant, low-cost scaling.
 
@@ -189,7 +189,7 @@ The core flow requires no account: Claude autonomously runs live web searches, s
 
 # 🏢 ENTERPRISE AI INITIATIVES 🏢
 
-Process, enablement, and data-driven initiatives delivered within SLB's Global Service Desk — alongside the products above, this is where AI adoption meets day-to-day enterprise operations.
+Process, enablement, and data-driven initiatives delivered within SLB's Global Service Desk  alongside the products above, this is where AI adoption meets day-to-day enterprise operations.
 
 <br><hr><br>
 
@@ -251,13 +251,13 @@ As part of the project, I applied artificial intelligence and natural language p
 
 # 📦 EARLIER PROJECTS 📦
 
-Smaller academic/personal projects from earlier in my path — kept here for reference.
+Smaller academic/personal projects from earlier in my path  kept here for reference.
 
 <br><hr><br>
 
 ## Cat/Army-DEX 🔫🐈🔫🐈‍⬛
 
-A deterministic, hash-based character generator: any input string (a name, a phrase) is hashed and used to seed a unique, procedurally-generated avatar — rendered as a cat, robot, or monster via the [RoboHash](https://robohash.org/) API. Built to explore deterministic hashing, seeded procedural generation, and third-party API integration behind a React front-end.
+A deterministic, hash-based character generator: any input string (a name, a phrase) is hashed and used to seed a unique, procedurally-generated avatar  rendered as a cat, robot, or monster via the [RoboHash](https://robohash.org/) API. Built to explore deterministic hashing, seeded procedural generation, and third-party API integration behind a React front-end.
 
 ### Main Features
 
@@ -288,7 +288,7 @@ A deterministic, hash-based character generator: any input string (a name, a phr
 
 ## OlarTasks 📝✅❌
 
-A full-stack CRUD task manager built on **MySQL, Express, React, and Node.js** to practice RESTful API design, relational data modeling, and state-driven UI updates — supporting create, update, complete, and delete task flows with real-time UI feedback.
+A full-stack CRUD task manager built on **MySQL, Express, React, and Node.js** to practice RESTful API design, relational data modeling, and state-driven UI updates  supporting create, update, complete, and delete task flows with real-time UI feedback.
 
 ### Main Features
 
