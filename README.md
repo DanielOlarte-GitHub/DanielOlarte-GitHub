@@ -71,7 +71,7 @@ Beyond enterprise operations, I actively design, build, and ship my own **AI-dri
 
 # 🚀 FEATURED PROJECTS 🚀
 
-Selected AI products I've designed and built end-to-end — both part of **[Eggn.io](https://eggn.io)**, my AI product studio.
+Selected AI systems and products I've designed and built end-to-end — from agentic workflow engineering to production AI platforms.
 
 <br><hr><br>
 
@@ -113,7 +113,48 @@ The project is developed with a focus on **geriatric centers and assisted-living
 
 <br><hr><br>
 
-## 2. [Dissemination Digest](https://dissemination.eggn.io) — AI Research Assistant for Creatives 🔍✨
+## 2. PocketAI — Multi-Agent Personal Finance Assistant 💰🤖
+
+**Personal Project · AI Agent Engineering**
+
+PocketAI is a personal project built to learn and demonstrate practical **AI Agent Engineering** through a production-like, multi-agent architecture rather than a single-prompt chatbot. Every agent has one specialized responsibility, communicates over WhatsApp, and holds its own conversational memory and tool bindings — a pattern closer to how real agentic systems are structured in production than a simple LLM wrapper.
+
+An **Orchestrator Agent** receives every incoming message, classifies user intent, and routes the request through a **Switch Router** to one of three specialized agents: a **Transaction Manager** that extracts structured data from natural language and logs it to Google Sheets (asking follow-up questions when required fields are missing), a **Financial Intelligence** agent that reads the full transaction history to answer spending questions, detect trends, and flag unusual expenses, and a **Financial Report** agent that generates formatted summaries and recommendations. The entire workflow is orchestrated in **n8n**, using **Google Gemini** as the reasoning engine for each agent and **Google Sheets** as the system of record.
+
+```
+WhatsApp
+   ↓
+Orchestrator Agent
+   ↓
+Switch Router
+   ├── Transaction Manager
+   ├── Financial Intelligence
+   └── Financial Report
+```
+
+### Main Features
+
+- **Intent-based request routing** — an orchestrator agent classifies each incoming message and routes it to the correct specialized agent.
+- **Natural-language transaction registration** — expenses and income are extracted from free-form messages, auto-classified, and logged to Google Sheets; the agent asks follow-up questions when required data is missing.
+- **Financial intelligence on demand** — spending analysis, trend detection, category comparisons, and anomaly detection over the full transaction history.
+- **Automated report generation** — structured, readable financial summaries with highlighted trends and recommendations.
+- **Per-agent conversational memory** — each specialized agent maintains its own context across the conversation.
+
+### Technologies used
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Multi-Agent Architecture](https://img.shields.io/badge/Multi--Agent_Architecture-0A0A0A?style=for-the-badge)
+
+### Project Preview
+
+![PocketAI architecture](assets/pocketai-architecture.png)
+
+<br><hr><br>
+
+## 3. [Dissemination Digest](https://dissemination.eggn.io) — AI Research Assistant for Creatives 🔍✨
 
 **AI Developer** — Part of [Eggn.io](https://eggn.io)
 
