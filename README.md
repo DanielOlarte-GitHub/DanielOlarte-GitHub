@@ -187,6 +187,68 @@ The core flow requires no account: Claude autonomously runs live web searches, s
 
 <br><hr><hr><br>
 
+# 🏢 ENTERPRISE AI INITIATIVES 🏢
+
+Process, enablement, and data-driven initiatives delivered within SLB's Global Service Desk — alongside the products above, this is where AI adoption meets day-to-day enterprise operations.
+
+<br><hr><br>
+
+## AI-Driven Enablement for Global Service Desk 🤖📚
+
+**AI Enablement Lead** — SLB, Global Service Desk
+
+Designed and implemented a structured AI adoption framework to enable the effective use of generative AI tools within a Global Service Desk environment. The initiative focused on embedding AI capabilities into analyst workflows to improve decision-making, ticket documentation quality, and operational efficiency.
+
+The program included the development of AI usage guidelines, a centralized prompt library, and standardized documentation practices to ensure consistent and responsible AI usage across support teams. To ensure scalability and long-term sustainability, it also incorporated trainer enablement, adoption monitoring through operational tagging, and the publication of all resources in a centralized knowledge base.
+
+### Main Features
+
+- **AI usage guidelines & governance** — standardized rules for consistent, responsible GenAI use across support teams.
+- **Centralized prompt library** — reusable, vetted prompts covering common analyst workflows.
+- **Standardized documentation practices** — consistent, higher-quality ticket documentation across the service desk.
+- **Trainer enablement** — trained internal trainers to scale adoption beyond the initial rollout.
+- **Adoption monitoring** — operational tagging to track real usage and measure impact over time.
+- **Centralized knowledge base** — single source of truth for every AI enablement resource.
+
+### Technologies used
+
+![Generative AI](https://img.shields.io/badge/Generative_AI-0A0A0A?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0A0A0A?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge)
+
+### Project Preview
+
+![AI-Driven Enablement](assets/enablement-schlumbi.jpg)
+
+<br><hr><br>
+
+## GSD Web Chat Deep Dive 💬📊
+
+**Data Analyst · AI Practitioner** — SLB, Global Service Desk
+
+A data analytics project focused on analyzing Service Desk web chat interactions to understand behavioral patterns and operational insights. The analysis was developed in Python using Jupyter Notebook (IPYNB) and visualized in Power BI to support data-driven decision making.
+
+As part of the project, I applied artificial intelligence and natural language processing (NLP) techniques to design predictive models capable of classifying and interpreting technical chat text, helping identify recurring issues and opportunities to optimize support processes.
+
+### Main Features
+
+- **Exploratory data analysis** — Python/Jupyter notebooks analyzing web chat interaction patterns.
+- **NLP-based text classification** — predictive models to classify and interpret technical chat text.
+- **Recurring issue detection** — surfaced patterns pointing to optimization opportunities in support processes.
+- **Power BI dashboards** — visualized findings to support data-driven decisions across the team.
+
+### Technologies used
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-0A0A0A?style=for-the-badge)
+![NLP](https://img.shields.io/badge/NLP-0A0A0A?style=for-the-badge)
+
+<br><hr><hr><br>
+
 # 📦 EARLIER PROJECTS 📦
 
 Smaller academic/personal projects from earlier in my path — kept here for reference.
