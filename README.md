@@ -210,6 +210,14 @@ A deterministic, hash-based character generator: any input string (a name, a phr
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
+### Project Images
+
+![Image 1](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/4213b55f-aeb6-4534-8fbf-01a9820052eb)
+![Image 2](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/406071cb-6d47-49da-89d9-f706588d1866)
+![Image 3](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/7cbd1364-8299-4188-9266-33173b5c2718)
+![Image 4](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/bc64dbe3-da90-4395-a405-ba389d7d608d)
+![Image 5](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/a57d26d3-2618-4f3f-9dba-ebcc3d5ac3fe)
+
 ### Links
 
 - [GitHub Repository](https://github.com/DanielOlarte-GitHub/Cat-Army-DEX)
@@ -236,6 +244,12 @@ A full-stack CRUD task manager built on **MySQL, Express, React, and Node.js** t
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### Project Images
+
+![Image 1](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/e50c33da-9ece-4652-9663-fce7fa70eb02)
+![Image 2](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/04537e61-5694-439d-8055-9b3be98fabe0)
+![Image 3](https://github.com/DanielOlarte-GitHub/DanielOlarte-GitHub/assets/80644486/4881a71f-bc7a-4b5a-86d3-caaa04d588ab)
 
 ### Links
 
