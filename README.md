@@ -214,7 +214,6 @@ The program included the development of AI usage guidelines, a centralized promp
 
 ![Generative AI](https://img.shields.io/badge/Generative_AI-0A0A0A?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-0A0A0A?style=for-the-badge)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge)
 
 ### Project Preview
