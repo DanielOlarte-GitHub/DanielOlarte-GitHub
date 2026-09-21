@@ -185,6 +185,40 @@ The core flow requires no account: Claude autonomously runs live web searches, s
 
 - [Live Platform — dissemination.eggn.io](https://dissemination.eggn.io)
 
+<br><hr><br>
+
+## 4. OLARagTE — RAG Knowledge Assistant & Hybrid NL-to-SQL Agent 📚🤖
+
+**Personal Project · AI Solutions Engineering — Full Stack**
+
+OLARagTE (a play on my last name, "Olarte", and RAG) is a Retrieval-Augmented Generation knowledge assistant with a ChatGPT-style interface: users upload one or more documents straight from the chat and ask natural-language questions grounded strictly in that content. It's built to demonstrate a production-shaped RAG pipeline rather than a toy demo — chunking, embeddings, vector search, and a strict "answer only from context" contract, all running on a serverless edge stack.
+
+Under the hood, uploaded text is split into ~500-token overlapping chunks and embedded with **text-embedding-3-small** through an AI Model Gateway, then stored in **PostgreSQL** with the **pgvector** extension. Every question is embedded the same way, matched against the top 5 most relevant chunks via a cosine-similarity SQL function, and answered by an LLM instructed to respond only from that retrieved context — citing its sources, and explicitly saying so whenever the knowledge base doesn't cover the question, instead of hallucinating an answer.
+
+The project also ships a second, more agentic capability: a hybrid `ask` endpoint that decides, per question, whether to answer with an LLM-generated (and validated, read-only) SQL query against a relational sales schema, or with a semantic vector search over a product catalog for intent-based questions — routing automatically between exact data retrieval and meaning-based search depending on what the question actually needs.
+
+### Main Features
+
+- **Multi-file ingestion from the chat** — drag-and-drop or attach several documents at once; each is chunked, embedded, and indexed automatically with live per-file status.
+- **Grounded, cited answers** — retrieves the top-5 most relevant chunks and instructs the LLM to answer strictly from that context, returning its sources and explicitly saying so when the answer isn't in the knowledge base.
+- **Hybrid natural-language agent** — a second endpoint routes each question between a validated, read-only text-to-SQL query (exact data lookups) and pgvector semantic search (intent-based product search), chosen automatically per question.
+- **ChatGPT-style interface** — sidebar with chat history, dark/light theme, and a fully responsive layout built from scratch.
+- **Serverless, edge-native backend** — TypeScript Edge Functions with no server to manage, backed by PostgreSQL + pgvector and an AI Model Gateway.
+
+### Technologies used
+
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-0A0A0A?style=for-the-badge)
+![Generative AI](https://img.shields.io/badge/Generative_AI-0A0A0A?style=for-the-badge)
+![Deno](https://img.shields.io/badge/Deno-000000?style=for-the-badge&logo=deno&logoColor=white)
+
+### Project Preview
+
+![OLARagTE chat interface](assets/olaragte-chat-ui.png)
+![OLARagTE knowledge base in PostgreSQL](assets/olaragte-database.png)
+
 <br><hr><hr><br>
 
 # 🏢 ENTERPRISE AI INITIATIVES 🏢
