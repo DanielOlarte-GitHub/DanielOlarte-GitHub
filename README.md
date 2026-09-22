@@ -83,7 +83,7 @@ Oskoole.ai is an AI-powered platform designed to help low-IT users, particularly
 
 From a technical perspective, the platform combines **Large Language Models (LLMs)**, **voice generation**, and a **real-time streaming architecture** to build tutorials as they are generated. **WebSockets** stream tutorial steps dynamically, voice synthesis provides audio guidance, and the system automatically retrieves contextual images to support each step. The backend runs on **PostgreSQL**, with a **containerized deployment (Docker)** and **automated CI/CD pipelines** enabling continuous integration, testing, and deployment.
 
-The project is developed with a focus on **geriatric centers and assisted-living environments**, where institutions can deploy customized AI assistants to support digital literacy and cognitive engagement for their residents.
+The project is developed with a focus on **geriatric centers and assisted-living environments**, where institutions can deploy customized AI assistants to support digital literacy and cognitive engagement for their residents. As a plus, the platform also includes **Brain Skoole**, a built-in cognitive-training suite of adaptive games — see its own project entry below.
 
 ### Main Features
 
@@ -113,7 +113,41 @@ The project is developed with a focus on **geriatric centers and assisted-living
 
 <br><hr><br>
 
-## 2. PocketAI — Multi-Agent Personal Finance Assistant 💰🤖
+## 2. Brain Skoole — Adaptive Cognitive Training Suite 🧠🎮
+
+**Tech Lead · Full Stack · AI Developer** — Part of [Eggn.io](https://eggn.io)
+
+Brain Skoole is a cognitive-training suite for older adults: short, adaptive daily exercises across three independent dimensions — reaction speed, working memory, and visual attention — with difficulty adjusting automatically to each user's evolving level after every session. It's built into the Oskoole platform, but designed and marketed as a product of its own: a lightweight, gamified way for residents to keep training memory, attention, and reaction time day to day.
+
+From a technical perspective, every game runs as a self-contained template with its own state and gameplay loop, and reports a standardized session-data contract to the backend — accuracy, difficulty level reached, session duration, average reaction time, and rounds played — which drives a per-game adaptive-difficulty algorithm and rolls into each user's play streak and long-term progress stats. A guided mini-baseline assessment measures a resident's starting level before adaptive training begins, and a pause/resume system freezes every in-game timer on interruption (tablet locked, app backgrounded, exit dialog open) so a broken session never scores, skews the reaction-time average, or unfairly drops a level. The backend runs on **FastAPI** and **PostgreSQL**, inheriting Oskoole's multi-tenant architecture so every residence's (RACF) data and progress stay isolated.
+
+The project is developed with the same focus as Oskoole — **geriatric centers and assisted-living environments** — giving institutions a standalone cognitive-stimulation program they can offer on its own, or bundled as a plus alongside Oskoole's tutorials.
+
+### Main Features
+
+- **Three adaptive cognitive games** — reaction speed (*Lightning Tap*), working memory (*Remember When Mixed Up*), and visual attention (*Spot the Odd One*), each with its own per-game difficulty engine.
+- **Mini-baseline assessment** — a guided first session measures each resident's starting cognitive level before adaptive training begins.
+- **Standardized session-data contract** — accuracy, level reached, duration, average reaction time, and rounds played feed per-user aggregates, best scores, and a daily play streak.
+- **Pause/resume safeguards** — interruptions freeze every trial timer without corrupting the score, the reaction-time average, or the user's level.
+- **Progress tracking** — history and trend views so residents and staff can see improvement over time.
+- **Multi-tenant, white-label backend** — built on Oskoole's per-residence tenancy, keeping every RACF's resident data isolated.
+
+### Technologies used
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Multi-Tenant Architecture](https://img.shields.io/badge/Multi--Tenant_Architecture-0A0A0A?style=for-the-badge)
+
+### Project Preview
+
+![Brain Skoole games interface](assets/brainskoole-hero.png)
+
+<br><hr><br>
+
+## 3. PocketAI — Multi-Agent Personal Finance Assistant 💰🤖
 
 **Personal Project · AI Agent Engineering**
 
@@ -154,7 +188,7 @@ Switch Router
 
 <br><hr><br>
 
-## 3. [Dissemination Digest](https://dissemination.eggn.io) — AI Research Assistant for Creatives 🔍✨
+## 4. [Dissemination Digest](https://dissemination.eggn.io) — AI Research Assistant for Creatives 🔍✨
 
 **AI Developer** — Part of [Eggn.io](https://eggn.io)
 
@@ -187,7 +221,7 @@ The core flow requires no account: Claude autonomously runs live web searches, s
 
 <br><hr><br>
 
-## 4. OLARagTE — RAG Knowledge Assistant & Hybrid NL-to-SQL Agent 📚🤖
+## 5. OLARagTE — RAG Knowledge Assistant & Hybrid NL-to-SQL Agent 📚🤖
 
 **Personal Project · AI Solutions Engineering — Full Stack**
 
